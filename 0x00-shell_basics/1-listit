@@ -1,2 +1,2 @@
 #!/bin/bash
-ls : lists files and folders present
+ls 

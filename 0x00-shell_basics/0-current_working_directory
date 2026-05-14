@@ -1,5 +1,2 @@
 #!/bin/bash
-mkdir 0x00-shell_basics
-cd 0x00-shell_basics
 pwd
-chmod +x 0-current_working_directory

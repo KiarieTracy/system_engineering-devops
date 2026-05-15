@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This script lists the content of the current directory, showing only the part after the first dash
+
+for file in *; do
+  # Skip hidden files (those starting with .)
+  case "$file" in
+    -*)
+      # If the filename starts with a dash, just print it as-is
+      echo "$file"
+      ;;
+    *)
+      # Cut everything before the first dash and display only the part after
+      echo "${file#*-}"
+      ;;
+  esac
+done

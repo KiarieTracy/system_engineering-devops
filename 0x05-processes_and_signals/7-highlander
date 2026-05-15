@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Script: 7-highlander
 # Displays "To infinity and beyond" indefinitely
 # Prints "I am invincible!!!" when receiving SIGTERM
 
@@ -10,4 +9,3 @@ do
   echo "To infinity and beyond"
   sleep 2
 done
-

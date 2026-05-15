@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# This script displays all running processes with USER and COMMAND
+# This script displays the USER of all running processes
 
-ps -eo user,command
+ps -eo user
+
 
